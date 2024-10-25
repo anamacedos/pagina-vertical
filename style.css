@@ -11,3 +11,92 @@ a{
 ul, ol, li{
     list-style: none;
 }
+
+header{
+    position: fixed;
+    /* diz para ele ficar fixo onde ele nasceu (foi criado) */
+    width: 100vw;
+    background-color: gray;
+    padding: 32px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav a{
+    color: white; 
+    padding: 8px;
+    /* qlqr modificao vai demorar 1s */
+    transition: 1s;
+    /* so os link q estao dentro do header e do nav vao ficar brancos */
+}
+header nav a:hovert{
+/* oq acontece ao passar o mause no link */
+border-color: tomato;
+padding: 8px;
+}
+
+.grupo{
+    height: 100vh;
+    background-color: brown;
+}
+#vermelho{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 100px;
+}
+
+#verde{
+    background-color: green;
+    padding: 100px;
+    display: flex;
+    color: white;
+    font-family: "Dancing Script", cursive;
+    font-size: 175%;
+    font-weight: 300;
+    font-style: normal;
+}
+#azul{
+    background-color: blue;
+    padding: 100px;
+}
+
+#amarelo{
+    background-color: yellow;
+    padding: 100px;
+}
+#roxo{
+    background-color: purple;
+    padding: 100px;
+}
+
+html, body{
+    scroll-behavior: smooth;
+    /* dar efeito e mostrar quando rola a tela */
+}
+#vermelho p{
+    color: white;
+    width: 50%;
+    font-size: 175%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+#fotovermelho{
+    width: 55%;
+}
+#verde blockquote{
+    width: ;
+}
+#nojinhoimg2{
+    right: 200px;
+}
+#nojinhoimg1{
+
+}
